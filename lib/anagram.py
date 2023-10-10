@@ -8,7 +8,7 @@ class Anagram:
         matching_anagrams = []
         #converting word to lower case and sorting x-ter
         sorted_word = sorted(self.word.lower())
-        #Iterate through each word in the list
+        #Iterating through each word in the list
         for candidate in word_list:
             #convert the candidate word to lowercase + sorting x-ter
             sorted_candidate = sorted(candidate.lower())
